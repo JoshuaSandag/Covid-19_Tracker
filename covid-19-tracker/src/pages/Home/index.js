@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+function Home (){
     return (
         <div>
             <h9><b>Apakah Coronavirus dan Covid-19 itu ?</b></h9>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Provinsi = () => {
+function Provinsi (){
     return (
         <div>
             <p>Jumlah Kasus Per Provinsi di Indonesia</p>

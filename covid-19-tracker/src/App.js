@@ -1,11 +1,8 @@
 import React from "react";
-import "./App.css";
 import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
-import { Global, Home, Indonesia, Provinsi } from "./pages";
+import {Home, Global, Indonesia, Provinsi} from './pages'
 
-
-//Membuat Routings menggunakan Package react-router-dom
-const App = () => {
+function App (){
   return (
     <Router>
       <div>
@@ -27,7 +24,7 @@ const App = () => {
           </ul>
         </nav>
         <Switch>
-          <Route path="/global">
+          <Route path="/Global">
             <Global />
           </Route>
           <Route path="/indonesia">
@@ -44,5 +41,6 @@ const App = () => {
     </Router>
   );
 };
+
 
 export default App;

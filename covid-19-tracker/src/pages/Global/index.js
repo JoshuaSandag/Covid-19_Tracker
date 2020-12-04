@@ -1,9 +1,11 @@
 import React from 'react';
+import Card from '../../card/Global';
 
-const Global = () => {
+function Global  (){
     return (
         <div>
             <p>Jumlah Kasus Seluruh Dunia</p>
+            <Card/>
         </div>
     );
 };

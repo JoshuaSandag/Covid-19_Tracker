@@ -1,2 +1,48 @@
-
+.card-container1{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 10px;
+    border-width: px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    background-color: orange;
+  } 
+.card-container2{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 10px;
+    border-width: px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    background-color: red;
+  } 
+.card-container3{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 10px;
+    border-width: px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    background-color: green;
+  } 
+.box{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
 
