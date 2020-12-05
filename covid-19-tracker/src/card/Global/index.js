@@ -25,6 +25,7 @@ function Card (){
       <h1 className ="card-container3">Sembuh {recovered}</h1>
   
     </div>
+
   );    
 };
 
