@@ -1,13 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
-import {Home, Global, Indonesia, Provinsi} from './pages'
+import {Home, Global, Indonesia, Provinsi} from './pages';
 
-const background = {
- backgroundColor:'grey'
-}
 function App (){
   return (  
-    <header style = {background}>
+    <header className = "background">
     <Router>
       <div>
       <h1>Covid Tracker</h1>
@@ -28,7 +25,7 @@ function App (){
           </ul>
         </nav>
         <Switch>
-          <Route path="/Global">
+          <Route path="/global">
             <Global />
           </Route>
           <Route path="/indonesia">

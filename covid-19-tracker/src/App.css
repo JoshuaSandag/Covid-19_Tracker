@@ -10,7 +10,7 @@
     border-color: black;
     border-style: solid;
     font-weight: bold;
-    background-color: orange;
+    background-color: rgb(252, 176, 36);
   } 
 .card-container2{
     font-size: 1.5rem;
@@ -24,7 +24,7 @@
     border-color: black;
     border-style: solid;
     font-weight: bold;
-    background-color: red;
+    background-color: rgb(247, 47, 47);
   } 
 .card-container3{
     font-size: 1.5rem;
@@ -38,18 +38,22 @@
     border-color: black;
     border-style: solid;
     font-weight: bold;
-    background-color: green;
+    background-color: rgb(42, 189, 42);
   } 
 .box{
   display: flex;
   align-items: left;
   justify-content: left;
 }
-
 .rata_kiri{
   text-align: left;
 }
-
+.background{
+  background-color: rgb(107, 202, 107);
+}
+.warnaTabel{
+  background-color: rgb(138, 155, 207);
+}
 
 
     
